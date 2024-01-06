@@ -83,11 +83,31 @@ nav a{
 }
 
 /* main section styles */
-
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;}
+.info-title{
+    font-style: normal;
+    font-family: open sans-serif;
+    font-size: 12px;
+    font-weight: 800px;
+}
+.info-description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    font-size: 20px;
 }
